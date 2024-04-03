@@ -17,10 +17,9 @@ This Terraform setup is designed for deploying a web application on AWS, establi
 cd aws-backend
 
 2. Execute the following command in yout terminal:
-terraform init
-terraform plan
-terraform apply (Confirm the apply action by typing yes when prompted)
-§
+- terraform init
+- terraform plan
+- terraform apply (Confirm the apply action by typing yes when prompted)
 
 3. Navigate to the root folder:
 cd ..
@@ -28,9 +27,9 @@ cd ..
 4. Execute the following command in yout terminal:
 (The password for PostgreSQL RDS instance is taken via input variable. Enter a password when prompted)
 
-terraform init
-terraform plan
-terraform apply (Confirm the apply action by typing yes when prompted)
+- terraform init
+- terraform plan
+- terraform apply (Confirm the apply action by typing yes when prompted)
 
 ## Infrastructure Overview
 The Terraform configuration includes the following key modules:
